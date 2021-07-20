@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(236, 232, 232);
+}
+.ImgHover li:hover{
+    box-shadow: 5px 5px 5px 5px lightgray;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+.grid-container > div {
+    text-align: center;
+    padding: 0%;
+  }
+.grid-container img:hover{
+  box-shadow: 5px 5px 5px 5px lightgray;
+}
+.item1 {
+    grid-column: 1/5;
+    grid-row: 1 / span 2;
+  }
+  .item4{
+      grid-column: 5/7;
+  }
+.orangeHover{
+    text-align: center;
+}
+.orangeHover ul li a{
+    display: inline;
+    color: black;  
+}
+.orangeHover a:hover{
+    color: orange;
+    text-decoration-line: underline;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    /* padding: 10px; */
+    padding-left: auto;
+    padding-right: auto;
+  }
+  
+  .grid-container2 > div {
+    text-align: center;
+    padding: auto;
+    /* padding: 20px 0;
+    font-size: 30px; */
+  }
+  
+  .it1 {
+    grid-row: 1 / 3;
+  }
+  .it5{
+      grid-column: 2 / 3;
+  }
+
+.carTop{
+    top: 5%;
+}
+.Contact li{
+    display: inline;
+}
